@@ -1,0 +1,328 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.landing_page {
+	height: 115vh;
+	background-color: #eb416e;
+	padding: 25px 20px 0px 20px;
+}
+
+.content_landing {
+	width: 85%;
+	margin: auto;
+}
+
+.navi {
+	padding: 40px;
+}
+
+.landing_page ul {
+	list-style: none;
+}
+
+.right_content {
+	position: relative;
+	left: 60%;
+	margin: 2%;
+}
+
+.banner {
+	margin-left: 1.5%;
+	text-decoration: none;
+	font-size: 2.2em;
+	color: #fbfffe;
+	font-weight: 100;
+}
+
+a {
+	text-decoration: none;
+	font-size: 1.3em;
+	color: #ffb7cf;
+	font-weight: 600;
+}
+
+.navi a:hover {
+	color: #fbfffe;
+}
+
+.text_enlarge span {
+	display: block;
+	line-height: 1.2;
+}
+
+.text_enlarge {
+	padding: 42px;
+	font-weight: 800;
+	color: #fbfffe;
+	font-size: 4em;
+}
+
+.content_below_nav {
+	padding: 10px;
+	margin: 1% auto auto auto;
+	width: 85%;
+}
+
+.image {
+	position: absolute;
+	right: 15%;
+	top: 20%;
+}
+
+.buttons {
+	padding: 10px 50px 0px 45px;
+	margin: auto;
+}
+
+.button_android {
+	width: 7em;
+	height: 1.8em;
+	font-size: 1.5em;
+	background-color: #353a40;
+	color: #fbfffe;
+	border-radius: 5px;
+}
+
+.button_android:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.button_apple {
+	margin: 0px 0px 0px 10px;
+	width: 7em;
+	height: 1.8em;
+	font-size: 1.5em;
+	background-color: #eb416e;
+	color: #fbfffe;
+	border: all;
+	border-color: #ffffff;
+	border-radius: 5px;
+}
+
+.button_apple:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.buttons p {
+	display: inline;
+	font-weight: 100;
+}
+
+.features {
+	margin: 0;
+	height: 70vh;
+	/*background-color: #f58476;*/
+}
+
+.features_content {
+	padding: 20px;
+	height: 100%;
+	width: 90%;
+	margin: auto;
+}
+
+.feature_1 {
+	margin: 5% 3% 0% 1%;
+	height: 70%;
+	width: 30%;
+	background-color: #ffffff;
+	float: left;
+}
+
+.feature_1:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.feature_2 {
+	margin: 5% 3% 0% 0%;
+	height: 70%;
+	width: 30%;
+	background-color: #ffffff;
+	float: left;
+}
+
+.feature_2:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.feature_3 {
+	margin: 5% 3% 0% 0%;
+	height: 70%;
+	width: 30%;
+	background-color: #ffffff;
+	float: left;
+}
+
+.feature_3:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.features i {
+	font-size: 5em;
+	margin: 10% 40% 10% 40%;
+}
+
+.features h3 {
+	color: #1d2124;
+	font-weight: 800;
+	font-family: sans-serif;
+	font-size: 1.7em;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.features p {
+	font-family: sans-serif;
+	color: #c7c7c7;
+	text-align: center;
+	font-size: 1.4em;
+}
+
+.reviews {
+	height: 110vh;
+	padding-top: 10vh;
+	background-color: #f58476;
+}
+
+.reviews_slide_1 {
+	height: 100vh;
+}
+
+.left_align_slideshow {
+	height: 7%;
+	color: #fbfffe;
+	width: 5%;
+	border: none;
+    background: none;
+	position: absolute;
+	left: 40px;
+	top: 240%;
+}
+
+.right_align_slideshow {
+	height: 7%;
+	color: #fbfffe;
+	width: 5%;
+	border: none;
+    background: none;
+	position: absolute;
+	right: 40px;
+	top: 240%;
+}
+
+.reviews p {
+	margin: auto;
+	text-align: center;
+	color: #fbfffe;
+	font-weight: 800;
+	font-family: sans-serif;
+	font-size: 4em;	
+}
+
+.start {
+	padding-top: 2%;
+}
+
+.user_image {
+	border-radius: 50%;
+	height: 18%;
+	width: 9%;
+	position: absolute;
+	left: 40%;
+	margin-top: 3%;
+}
+
+.user_name {
+	color: #fbfffe;
+	position: absolute;
+	left: 51.5%;
+	margin-top: 6%;
+	font-size: 1.3em;
+	font-family: sans-serif;
+}
+
+.sponsor_1 {
+	height: 10%;
+	width: 25%;
+	position: absolute;
+	top: 280%;
+	left: 25%;
+}
+
+.sponsor_2 {
+	height: 6%;
+	width: 15%;
+	position: absolute;
+	top: 281.2%;
+	left: 55%;
+}
+
+.pricing {
+	height: 100vh;
+	background-color: #f37b32;
+}
+
+.download {
+	height: 100vh;
+	background-color: #32f349;
+}
+
+.footer_page {
+	height: 75vh;
+	padding: 10px;
+}
+
+.social_icons {
+	height: 10%;
+	width: 40%;
+	position: absolute;
+	left: 30%;
+	top: 520%;
+}
+
+.social_icons:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.icon1 {
+	list-style: none;
+	float: left;
+	font-size: 2em;
+	margin: 2% 18% 2% 3%;
+}
+
+.icon2 {
+	list-style: none;
+	float: left;
+	font-size: 2em;
+	margin: 2% 18% 2% 2%;
+}
+
+.icon3 {
+	list-style: none;
+	float: left;
+	font-size: 2em;
+	margin: 2% 18% 2% 2%;
+}
+
+.icon4 {
+	list-style: none;
+	float: left;
+	font-size: 2em;
+	margin: 2% 3% 2% 2%;
+}
+
+.footer_page a {
+	color: #000;
+}
+
+.footer_text {
+	font-size: 1.3em;
+	font-family: sans-serif; 
+	color: #c7c7c7;
+	position: absolute;
+	top: 560%;
+	left: 40%;
+}

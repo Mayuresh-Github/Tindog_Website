@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+ 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/v4-shims.css">
+
+	<title>Tindog</title>
+	<link rel="icon" href="favicon.ico">
+	<script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusDivs(n) {
+  			showDivs(slideIndex += n);
+		}
+
+		function showDivs(n) {
+  			var i;
+  			var x = document.getElementsByClassName("reviews_slide_1");
+  			if (n > x.length) {slideIndex = 1}
+  			if (n < 1) {slideIndex = x.length}
+  			for (i = 0; i < x.length; i++) {
+    			x[i].style.display = "none";  
+  			}
+  			x[slideIndex-1].style.display = "block";  
+  			setTimeout(showDivs(1), 2000);
+		}
+	</script>
+</head>
+
+<body>
+
+	<section class="landing_page">
+	
+		<div class="content_landing">
+			<nav class="navi">
+				<a class="banner" href="index.html">tindog</a>
+				<a class="right_content" href="">Contact</a>
+				<a class="right_content" href="">Pricing</a>
+				<a class="right_content" href="">Download</a>
+			</nav>
+		</div>
+
+		<div class="content_below_nav">
+			<div class="text_enlarge">
+				<p>
+					<span>Meet new and</span>
+					<span>interesting</span>
+					<span>dogs nearby.</span>
+				</p>
+
+				<div class="image">
+					<img src="images/mobile.png" height="500em">
+				</div>
+			</div>
+
+			<div class="buttons">	
+				<button class="button_android"><i class="fab fa-google-play"></i> <p>Download</p></button>
+				<button class="button_apple"><i class="fa fa-apple"></i> <p>Download</p></button>
+			</div>
+		</div>
+
+		</section>
+	</section>
+
+	<section class="features">
+		<div class="features_content">
+			<div class="feature_1">
+				<div class="icon_1">
+					<i class="fas fa-check-circle" style="color: #eb416e"></i>
+					<h3> Easy to use </h3>
+					<p> So easy to use, even your <div style="text-align: center; font-size: 1.4em; font-family: sans-serif; color: #c7c7c7">dog could use it!</div> </p>
+				</div>
+			</div>
+
+			<div class="feature_2">
+				<div class="icon_2">
+					<i class="fas fa-user-shield" style="color: #eb416e"></i>
+					<h3> Secure and trusted </h3>
+					<p> Safe and always encrypted to <div style="text-align: center; font-size: 1.4em; font-family: sans-serif; color: #c7c7c7">keep your info secure </div> </p>
+				</div>
+			</div>
+
+			<div class="feature_2">
+				<div class="icon_3">
+					<i class="fas fa-address-book" style="color: #eb416e"></i>
+					<h3> Millions of choices </h3> 
+					<p> Wide choices so you can find <div style="text-align: center; font-size: 1.4em; font-family: sans-serif; color: #c7c7c7">your perfect one!</div> </p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="reviews">
+		<button class="left_align_slideshow" onclick="plusDivs(-1)">&#10094;</button>
+		<button class="right_align_slideshow" onclick="plusDivs(1)">&#10095;</button>
+
+		<div class="reviews_slide_1">
+			<div class="review_content">			
+				<p class="start">I no longer have to sniff other dogs <p>for love. I've found the hottest <p>Corgi on Tindog. Woof!</p></p></p>
+				<img class="user_image" src="images/review_image_1.png" alt="User">
+				<div class="user_name">Ronny, New York</div>
+
+				<div>
+					<img class="sponsor_1" src="images/sponsor_1.png">
+					<img class="sponsor_2" src="images/sponsor_2.png">
+				</div>
+			</div>
+		</div>
+
+		<div class="reviews_slide_1" style="display: none;">
+			<div class="review_content">			
+				<p class="start">My dog used to be so lonely, but <p>with Tindog's help they've found <p>the love of their life!</p></p></p>
+				<img class="user_image" src="images/review_image_2.png" alt="User">
+					<div class="user_name">Beverly, Illiois</div>
+
+					<div>
+						<img class="sponsor_1" src="images/sponsor_1.png">
+						<img class="sponsor_2" src="images/sponsor_2.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="pricing">
+		
+	</section>
+
+	<section class="download">
+		
+	</section>
+
+	<footer class="footer_page">
+		
+		<div class="social_icons">
+			<ul>
+				<li class="icon1">
+					<a href="" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+				</li>
+
+				<li class="icon2">
+					<a href="" title="Twitter"><i class="fab fa-twitter"></i></a>
+				</li>
+
+				<li class="icon3">
+					<a href="" title="Instagram"><i class="fab fa-instagram"></i></a>
+				</li>
+
+				<li class="icon4">
+					<a href="" title="Mail"><i class="fas fa-envelope"></i></a>
+				</li>
+			</ul>
+		</div>
+
+		<p class="footer_text"> &#169; Copyrights 2020 Mayuresh </p>
+	</footer>
+
+</body>
+
+</html>
