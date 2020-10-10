@@ -113,7 +113,6 @@ a {
 .features {
 	margin: 0;
 	height: 70vh;
-	/*background-color: #f58476;*/
 }
 
 .features_content {
@@ -265,8 +264,60 @@ a {
 }
 
 .download {
+	padding-top: 5%;
 	height: 100vh;
-	background-color: #32f349;
+	background-color: #eb416e;
+	text-align: center;
+	font-size: 4.5em;
+	color: #fbfffe;
+	font-weight: 800;
+	font-family: sans-serif;
+}
+
+.download_content {
+	margin: 4.5% auto auto auto; 
+	height: 80vh;
+	width: 85%;
+}
+
+.download_android {
+	color: #fbfffe;
+	background-color: #353a40;
+	padding: 5px;
+	margin: 10% 1% auto auto;
+	font-size: 0.4em;
+	font-weight: 100;
+	font-family: sans-serif;
+	width: 15%;
+	border-radius: 5px;
+	border: none;
+}
+
+.download_android:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.download_apple {
+	padding: 5px;
+	margin: 10% auto auto 1%;
+	font-size: 0.4em;
+	font-weight: 100;
+	font-family: sans-serif;
+	width: 15%;
+	border-radius: 5px;
+	border: none;
+}
+
+.download_apple:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.download_buttons p {
+	display: inline;
+}
+
+.download_buttons .button_android {
+	background-color: : #fbfffe;
 }
 
 .footer_page {
