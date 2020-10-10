@@ -260,7 +260,96 @@ a {
 
 .pricing {
 	height: 100vh;
-	background-color: #f37b32;
+	background-color: #ffffff;
+	padding-top: 3%;
+}
+
+.pricing_content {
+	margin: auto;
+	height: 90%;
+	width: 95%;
+	text-align: center;
+	/*background-color: #ffa;*/
+}
+
+.tagline {
+	font-size: 3em;
+	font-family: sans-serif;
+	color: #20252a;
+	font-weight: 800;
+}
+
+.small_tagline {
+	padding-top: 1%;
+	font-size: 1.5em;
+	color: #9a9a9a;
+	font-family: sans-serif;
+	font-weight: 800;
+}
+
+.plan_1 {
+	border: solid 1px #efefef;
+	margin: 4% 3% 0% 1.5%;
+	height: 65%;
+	width: 30%;
+	float: left;
+}
+
+.plan_1:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.plan_2 {
+	border: solid 1px #efefef;
+	margin: 4% 3% 0% 0%;
+	height: 65%;
+	width: 30%;
+	float: left;
+}
+
+.plan_2:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.plan_3 {
+	border: solid 1px #efefef;
+	margin: 4% 0% 0% 0%;
+	height: 75%;
+	width: 30%;
+	float: left;
+}
+
+.plan_3:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.plan_name {
+	padding-top: 2%;
+	color: #1e2226;
+	font-weight: 800;
+	font-family: sans-serif;
+	font-size: 2em;
+	text-align: center;
+	background-color: #f7f7f7;
+	height: 2em;
+}
+
+.plan_price {
+	padding: 5% 5% 0% 5%;
+	font-size: 3.5em;
+	font-family: sans-serif;
+	font-weight: 800;
+	color: #23252b;
+}
+
+.offerings {
+	padding: 4.5%;
+	color: #bababa;
+	font-size: 1.5em;
+}
+
+.plan3 p {
+	padding: 5%;
 }
 
 .download {
